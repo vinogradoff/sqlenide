@@ -32,6 +32,6 @@ SqlDriver.initSQLConnection();
 String sql="select count(*) from employee where last= ?";
 assertThat(SqlDriver.countResults(sql,"Single")).isOne();
 
-String sql="DELETE FROM ....= ?"
+String sql="delete from employee where first= ?"
 assertThat(SqlDriver.deleteLines(sql,"Luke")).isGreaterThan(1);
 ```
