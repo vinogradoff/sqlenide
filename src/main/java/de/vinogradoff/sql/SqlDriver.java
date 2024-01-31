@@ -14,9 +14,9 @@ public class SqlDriver {
 
     /**
      * Initialize connection using system properties:
-     *      <sql-db.url>jdbc:sqlserver://p2012-d9019:1433</sql-db.url>
-     *      <sql-db.user>sa</sql-db.user>
-     *      <sql-db.password>#######</sql-db.password>
+     *      &lt;sql-db.url&gt;jdbc:sqlserver://p2012-d9019:1433&lt;/sql-db.url&gt;
+     *      &lt;sql-db.user&gt;sa&lt;/sql-db.user&gt;
+     *      &lt;sql-db.password&gt;#######&lt;/sql-db.password&gt;
      *
      * @throws SQLException
      */
